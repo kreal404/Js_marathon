@@ -1,3 +1,5 @@
+// Task 1
+
 const str1 = 'Мама мыла раму';
 const str2 = 'Собака друг человека';
 
@@ -25,3 +27,19 @@ function countLetters(str1, str2) {
 } 
 
 console.log(countLetters(str1, str2));
+
+
+// Task 2
+
+let phone = "+71234567890";
+let rightNumber = '';
+
+function formattedPhone(phone) {
+  for(let i=0; i<phone.length; i++) {
+    
+  }
+
+  console.log(rightNumber);
+}
+
+formattedPhone(phone);
